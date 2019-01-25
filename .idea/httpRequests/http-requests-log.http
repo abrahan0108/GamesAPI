@@ -1,0 +1,11 @@
+POST http://localhost:8000/games/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{   "name": "Teenage Mutant Ninja Turtle",   "game_category": "3D RPG",   "played": false,   "release_date": "2016-05-18T03:02:00.776594Z" }
+
+<> 2019-01-25T110022.201.json
+
+###
+
