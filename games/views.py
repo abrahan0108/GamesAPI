@@ -9,6 +9,22 @@ from games.serializers import PlayerScoreSerializer
 from rest_framework import generics
 from rest_framework.response import Response
 from rest_framework.reverse import reverse
+from django.contrib.auth.models import User
+from games.serializers import UserSerializer
+from rest_framework import permissions
+from games.permissions import IsOwnerOrReadOnly
+
+
+class UserList(generics.ListAPIView):
+    queryset = User.objects.all()
+    serializer_class = UserSerializer
+    name='user-list'
+
+
+class UserDetail(generics.RetrieveAPIView):
+    queryset = User.objects.all()
+    serializer_class = UserSerializer
+    name = 'user-detail'
 
 
 class GameCategoryList(generics.ListCreateAPIView):
@@ -27,12 +43,24 @@ class GameList(generics.ListCreateAPIView):
     queryset = Game.objects.all()
     serializer_class = GameSerializer
     name = 'game-list'
+    permission_classes = (
+        permissions.IsAuthenticatedOrReadOnly,
+        IsOwnerOrReadOnly,
+    )
+    def perform_create(self, serializer):
+        # Pass an additional owner fierl to the create method
+        # To set the owner to the user receive in the request
+        serializer.save(owner=self.request.user)
 
 
 class GameDetail(generics.RetrieveUpdateDestroyAPIView):
     queryset = Game.objects.all()
     serializer_class = GameSerializer
     name = 'game-detail'
+    permission_classes = (
+        permissions.IsAuthenticatedOrReadOnly,
+        IsOwnerOrReadOnly,
+    )
 
 
 class PlayerList(generics.ListCreateAPIView):
@@ -66,6 +94,7 @@ class ApiRoot(generics.GenericAPIView):
         return Response({
             'players': reverse(PlayerList.name, request=request),
             'game-categories': reverse(GameCategoryList.name, request=request),
-            'game': reverse(GameList.name, request=request),
-            'scores': reverse(PlayerScoreList.name, request=request)
+            'games': reverse(GameList.name, request=request),
+            'scores': reverse(PlayerScoreList.name, request=request),
+            'users': reverse(UserList.name, request=request),
         })

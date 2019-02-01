@@ -29,4 +29,10 @@ urlpatterns = [
     path(r'',
          views.ApiRoot.as_view(),
          name=views.ApiRoot.name),
+    path(r'users/',
+         views.UserList.as_view(),
+         name=views.UserList.name),
+    path(r'users/<int:pk>',
+         views.UserDetail.as_view(),
+         name=views.UserDetail.name),
 ]
