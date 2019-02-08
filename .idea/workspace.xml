@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c97d24f-4db6-41b8-b5b5-c933aca0c353" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/games/pagination.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/games/permissions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.coveragerc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/games/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/games/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/games/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/games/tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/games/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/games/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gamesapi/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/gamesapi/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamesapi/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/gamesapi/urls.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,58 +26,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gamesapi/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="537">
-              <caret line="136" column="60" selection-start-line="136" selection-start-column="60" selection-end-line="136" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/games/pagination.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="432">
+              <caret line="162" selection-start-line="162" selection-end-line="162" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/games/serializers.py">
+        <entry file="file://$PROJECT_DIR$/games/tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="58" column="20" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
+            <state relative-caret-position="-697">
+              <caret line="22" column="54" lean-forward="true" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
               <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/games/permissions.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/games/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/games/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
-              <folding>
-                <element signature="e#0#37#0" expanded="true" />
+                <element signature="e#0#32#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -90,7 +47,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/games/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="554">
+            <state relative-caret-position="483">
               <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
@@ -100,12 +57,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gamesapi/urls.py">
+        <entry file="file://$PROJECT_DIR$/games/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+            <state relative-caret-position="540">
+              <caret line="158" column="39" selection-start-line="158" selection-start-column="39" selection-end-line="158" selection-end-column="39" />
               <folding>
-                <element signature="e#632#664#0" expanded="true" />
+                <element signature="e#0#37#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -131,21 +88,23 @@
         <option value="restClient/response1.json" />
         <option value="restClient/response4.json" />
         <option value="$PROJECT_DIR$/games/pagination.py" />
-        <option value="$PROJECT_DIR$/gamesapi/settings.py" />
         <option value="$PROJECT_DIR$/games/models.py" />
         <option value="$PROJECT_DIR$/games/permissions.py" />
         <option value="$PROJECT_DIR$/games/urls.py" />
         <option value="$PROJECT_DIR$/gamesapi/urls.py" />
-        <option value="$PROJECT_DIR$/games/views.py" />
         <option value="$PROJECT_DIR$/games/serializers.py" />
+        <option value="$PROJECT_DIR$/games/views.py" />
+        <option value="$PROJECT_DIR$/gamesapi/settings.py" />
+        <option value="$PROJECT_DIR$/.coveragerc" />
+        <option value="$PROJECT_DIR$/games/tests.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="4">
     <option name="x" value="960" />
-    <option name="y" value="27" />
+    <option name="y" value="25" />
     <option name="width" value="960" />
-    <option name="height" value="1053" />
+    <option name="height" value="950" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -153,6 +112,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -168,27 +128,31 @@
             <path>
               <item name="gamesapi" type="b2602c69:ProjectViewProjectNode" />
               <item name="gamesapi" type="462c0819:PsiDirectoryNode" />
-              <item name="games" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+              <item name="htmlcov" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gamesapi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gamesapi" type="462c0819:PsiDirectoryNode" />
-              <item name="gamesapi" type="462c0819:PsiDirectoryNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="gamesapi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Scratches" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="EditorConfig" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../gamestore" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RestClientSettings">
     <option name="REQUEST_HISTORY">
@@ -301,17 +265,22 @@
       <workItem from="1548787785568" duration="853000" />
       <workItem from="1548864944094" duration="7079000" />
       <workItem from="1548946362932" duration="18198000" />
-      <workItem from="1549033900886" duration="17189000" />
+      <workItem from="1549033900886" duration="17336000" />
+      <workItem from="1549382048173" duration="1803000" />
+      <workItem from="1549407049725" duration="1352000" />
+      <workItem from="1549478651982" duration="3311000" />
+      <workItem from="1549580016696" duration="4616000" />
+      <workItem from="1549636781389" duration="17832000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70412000" />
+    <option name="totallyTimeSpent" value="99473000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
+    <frame x="960" y="25" width="960" height="950" extended-state="4" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12379936" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.28118163" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -322,11 +291,11 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32900432" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32886723" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="11" weight="0.3296837" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.30669546" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.28380024" />
       <window_info anchor="bottom" id="Python Console" order="13" weight="0.3296837" />
       <window_info anchor="bottom" id="REST Client" order="14" weight="0.47080293" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -362,54 +331,6 @@
     <entry file="file://$PROJECT_DIR$/games/migrations/0002_auto_20190201_1624.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/games/pagination.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gamesapi/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
-          <caret line="136" column="60" selection-start-line="136" selection-start-column="60" selection-end-line="136" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/games/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/games/permissions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/games/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gamesapi/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
-          <folding>
-            <element signature="e#632#664#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/games/migrations/0003_game_owner.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -419,25 +340,108 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/games/views.py">
+    <entry file="file://$PROJECT_DIR$/gamesapi/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+        <state relative-caret-position="340">
+          <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
           <folding>
-            <element signature="e#0#37#0" expanded="true" />
+            <element signature="e#632#664#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/games/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="58" column="20" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
+        <state relative-caret-position="358">
+          <caret line="72" column="26" selection-start-line="72" selection-start-column="26" selection-end-line="72" selection-end-column="26" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/games/permissions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/games/pagination.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/games/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-502">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/games/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/games/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="158" column="39" selection-start-line="158" selection-start-column="39" selection-end-line="158" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.editorconfig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.coveragerc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gamesapi/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="162" selection-start-line="162" selection-end-line="162" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/games/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-697">
+          <caret line="22" column="54" lean-forward="true" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
